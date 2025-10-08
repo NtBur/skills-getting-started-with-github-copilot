@@ -96,6 +96,26 @@ section h3 {
   font-size: 0.9em;
 }
 
+.participant-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: red;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
